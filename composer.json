@@ -12,7 +12,8 @@
 	"minimum-stability": "dev",
 	"autoload": {
 		"psr-4": {
-			"yii2lab\\navigation\\": "src"
+			"yii2lab\\navigation\\": "src",
+			"yii2bundle\\navigation\\": "src"
 		}
 	},
 	"require": {
