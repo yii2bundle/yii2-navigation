@@ -2,7 +2,7 @@
 
 namespace yii2lab\navigation\domain\services;
 
-use yii2lab\domain\services\base\BaseActiveService;
+use yii2rails\domain\services\base\BaseActiveService;
 use yii2lab\navigation\domain\interfaces\services\AlertInterface;
 use yii2lab\navigation\domain\entities\AlertEntity;
 use yii2lab\navigation\domain\widgets\Alert;
