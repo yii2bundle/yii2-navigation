@@ -4,25 +4,25 @@
 Создание пунктов меню "Хлебные крошки"
 
 ```php
-Yii::$app->navigation->breadcrumbs->create('title');
+App::$domain->navigation->breadcrumbs->create('title');
 ```
 
 Можно указать ссылку
 
 ```php
-Yii::$app->navigation->breadcrumbs->create('title', 'user/auth');
+App::$domain->navigation->breadcrumbs->create('title', 'user/auth');
 ```
 
 Можно указать адрес перевода вместо текста
 
 ```php
-Yii::$app->navigation->breadcrumbs->create(['main', 'title']);
+App::$domain->navigation->breadcrumbs->create(['main', 'title']);
 ```
 
 Когда необходимо показывать последний пункт без URL, простой строчкой
 
 ```php
-Yii::$app->navigation->breadcrumbs->removeLastUrl();
+App::$domain->navigation->breadcrumbs->removeLastUrl();
 ```
 
 Метод removeLastUrl принимает true или false, что буквально означает - удалять ли URL из последнего пункта.
