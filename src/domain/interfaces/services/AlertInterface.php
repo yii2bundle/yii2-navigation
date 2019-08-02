@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2lab\navigation\domain\interfaces\services;
+namespace yii2bundle\navigation\domain\interfaces\services;
 
 use yii2rails\domain\interfaces\services\CrudInterface;
-use yii2lab\navigation\domain\entities\AlertEntity;
-use yii2lab\navigation\domain\widgets\Alert;
+use yii2bundle\navigation\domain\entities\AlertEntity;
+use yii2bundle\navigation\domain\widgets\Alert;
 
 interface AlertInterface extends CrudInterface {
 	

@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\navigation\domain\widgets;
+namespace yii2bundle\navigation\domain\widgets;
 
 use Yii;
 use yii\helpers\ArrayHelper;

@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2lab\navigation\domain\entities;
+namespace yii2bundle\navigation\domain\entities;
 
 use yii2rails\domain\BaseEntity;
 use yii2rails\domain\values\LangValue;

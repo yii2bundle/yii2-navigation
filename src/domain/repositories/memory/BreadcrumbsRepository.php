@@ -1,9 +1,9 @@
 <?php
 
-namespace yii2lab\navigation\domain\repositories\memory;
+namespace yii2bundle\navigation\domain\repositories\memory;
 
 use yii2rails\extension\arrayTools\repositories\base\BaseActiveArrayRepository;
-use yii2lab\navigation\domain\interfaces\repositories\BreadcrumbsInterface;
+use yii2bundle\navigation\domain\interfaces\repositories\BreadcrumbsInterface;
 
 class BreadcrumbsRepository extends BaseActiveArrayRepository implements BreadcrumbsInterface {
 

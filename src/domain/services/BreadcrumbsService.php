@@ -1,15 +1,15 @@
 <?php
 
-namespace yii2lab\navigation\domain\services;
+namespace yii2bundle\navigation\domain\services;
 
 use yii2rails\domain\services\base\BaseActiveService;
-use yii2lab\navigation\domain\interfaces\services\BreadcrumbsInterface;
+use yii2bundle\navigation\domain\interfaces\services\BreadcrumbsInterface;
 
 /**
  * Class BreadcrumbsService
  *
- * @package yii2lab\navigation\domain\services
- * @property \yii2lab\navigation\domain\interfaces\repositories\BreadcrumbsInterface $repository
+ * @package yii2bundle\navigation\domain\services
+ * @property \yii2bundle\navigation\domain\interfaces\repositories\BreadcrumbsInterface $repository
  */
 class BreadcrumbsService extends BaseActiveService implements BreadcrumbsInterface {
 
